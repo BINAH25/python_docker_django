@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: demo_web
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+  
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - web
+
