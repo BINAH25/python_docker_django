@@ -42,8 +42,7 @@ Docker Compose
         docker ps
     This will list all active containers along with their port mappings.
 
-    ![alt text](image.png)
-
+![alt text](image.png)
 6. **Visit http://127.0.0.1:80**
     this will display the below page
     ![alt text](image-1.png)
